@@ -1,17 +1,20 @@
 {
   "private": false,
-  "version": "0.0.1",
   "name": "@prospectwith/us-postal-code-to-state-name",
-  "description": "Convert your US postal code to the name of the state",
+  "version": "0.0.1",
   "author": "ProspectWith <product@prospectwith.com>",
   "license": "MIT",
+  "description": "Convert your US postal code to the name of the state",
+  "homepage": "https://github.com/prospectwith/us-postal-code-to-state-name",
   "main": "index.js",
   "keywords": [
     "postal code",
     "state name",
     "us postal code"
   ],
-  "homepage": "https://github.com/prospectwith/us-postal-code-to-state-name",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/prospectwith/us-postal-code-to-state-name.git"
