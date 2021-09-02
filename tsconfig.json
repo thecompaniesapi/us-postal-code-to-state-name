@@ -16,6 +16,7 @@
     "skipLibCheck": true,
     "incremental": true,
     "noUnusedParameters": true,
-    "removeComments": true
+    "removeComments": true,
+    "resolveJsonModule": true
   }
 }
