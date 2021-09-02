@@ -1,16 +1,23 @@
 {
   "private": false,
   "name": "@prospectwith/us-postal-code-to-state-name",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": "ProspectWith <product@prospectwith.com>",
   "license": "MIT",
   "description": "Convert your US postal code to the name of the state",
   "homepage": "https://github.com/prospectwith/us-postal-code-to-state-name",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "types": "dist/index.d.ts",
   "keywords": [
     "postal code",
     "state name",
     "us postal code"
+  ],
+  "files": [
+    "dist/*"
   ],
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
@@ -22,5 +29,13 @@
   "bugs": {
     "email": "julien.le.coupanec@gmail.com",
     "url": "https://github.com/prospectwith/us-postal-code-to-state-name/issues"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "eslint": "7.21.0",
+    "eslint-config-prettier": "8.1.0",
+    "eslint-plugin-prettier": "3.3.1",
+    "prettier": "2.2.1",
+    "typescript": "4.1.2"
   }
 }
