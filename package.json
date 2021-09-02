@@ -7,10 +7,10 @@
   "description": "Convert your US postal code to the name of the state",
   "homepage": "https://github.com/prospectwith/us-postal-code-to-state-name",
   "main": "dist/src/index.js",
+  "types": "dist/src/index.d.ts",
   "scripts": {
     "build": "tsc"
   },
-  "types": "dist/index.d.ts",
   "keywords": [
     "postal code",
     "state name",
