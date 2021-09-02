@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "@prospectwith/us-postal-code-to-state-name",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "ProspectWith <product@prospectwith.com>",
   "license": "MIT",
   "description": "Convert your US postal code to the name of the state",
